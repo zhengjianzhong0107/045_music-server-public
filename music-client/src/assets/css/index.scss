@@ -1,0 +1,68 @@
+@import "./var.scss";
+@import "./global.scss";
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+hr,
+img,
+a,
+form,
+label,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header {
+  padding: 0;
+  margin: 0;
+}
+
+html, body, #app {
+  height: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.pagination {
+  @include layout(center);
+  transform: translateY(15px);
+}
+
+@media screen and (min-width: $sm) {
+  .play-list-container {
+    margin: 0 8% 30px 8%;
+  }
+}
+
+/*el*/
+.el-select-dropdown__item {
+  display: block !important;
+}

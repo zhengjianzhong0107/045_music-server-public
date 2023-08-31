@@ -1,0 +1,70 @@
+//Colors
+$color-white: #ffffff;
+$color-light-white: #fefefe;
+$color-grey: #67757f;
+$color-light-grey: #EFEFEF;
+$color-black: #000000;
+$color-blue-shallow: #a9dbf9;
+$color-blue: #95d2f6;
+$color-blue-active: #30a4fc;
+$color-blue-light: #2aa3ef;
+$color-blue-dark: #2796dd;
+$color-red: rgb(245, 108, 108);
+
+// Theme Global Color
+$theme-color: $color-blue;
+$theme-background-color: #e6ecf0;
+$theme-header-color: $color-light-white;
+$theme-footer-color: $theme-background-color;
+$theme-play-bar-color: $color-light-white;
+
+// Fonts
+$font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei,
+  Helvetica Neue, Helvetica, Arial, sans-serif;
+// $font-family: Avenir, Helvetica, Arial, sans-serif;
+$font-size-default: 1rem;
+$font-size-logo: 1.5rem;
+$font-size-header: 1rem;
+
+// header
+$header-height: 60px;
+$header-padding: 0 4%;
+$header-margin: 0;
+$header-logo-width: 10%;
+$header-logo-margin: 0 10px;
+$header-nav-padding: 0 0.5rem;
+$header-nav-margin: 0 0.5rem;
+$header-search-radius: 10px;
+$header-search-height: $header-height - 20px;
+$header-search-max-width: 25vw;
+$header-search-min-width: 200px;
+$header-search-btn-height: ($header-height / 2);
+$header-search-btn-width: 60px;
+$header-user-width: ($header-height / 1.7);
+$header-user-margin: 1rem;
+$header-user-radius: 50%;
+$header-menu-width: 150px;
+$header-menu-padding: 7px 0px;
+$header-menu-radius: 4px;
+
+// page
+$content-padding: 0 8% 20px 8%;
+$border-radius-songlist: 12px;
+
+// footer
+$footer-height: 100px;
+
+// current-play
+$current-play: 350px;
+
+// play-bar
+$play-bar-height: 60px;
+
+// style
+$box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
+// Media queries
+$sm: 668px;
+$bg: 1024px;
+$md: 1300px;
+$lg: 1450px;

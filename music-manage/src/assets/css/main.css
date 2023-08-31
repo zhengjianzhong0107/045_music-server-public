@@ -1,0 +1,49 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+dl, dt, dd, ol, ul, li,hr,img,a,
+form, label, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+#app,
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+ul,
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.crumbs {
+  margin-bottom: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.handle-box {
+  margin-bottom: 20px;
+  font-size: 12px;
+  display: flex;
+  width: 30%;
+}
+
+.handle-box input {
+  margin: 0 10px;
+}
